@@ -1,5 +1,5 @@
 import gym
-#import gym_hvl
+import gym_hvl
 
 env = gym.make('dogfight-v0')
 env.init()
