@@ -1,6 +1,6 @@
 import gym
 
-class DogfightEnv(gym.Env):
+class DiscreteDogfightEnv(gym.Env):
   
 
   def __init__(self):
