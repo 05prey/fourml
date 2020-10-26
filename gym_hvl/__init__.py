@@ -7,6 +7,6 @@ register(
 
 register(
     id='dogfight_discrete-v0',
-    entry_point='gym_hvl.envs:DogfightEnv',
+    entry_point='gym_hvl.envs:DiscreteDogfightEnv',
 )
 
