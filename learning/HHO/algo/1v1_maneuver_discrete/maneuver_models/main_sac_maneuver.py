@@ -1,7 +1,7 @@
 import gym
 import gym_hvl
 
-env = gym.make('dogfight-v0')
+env = gym.make('dogfight_maneuver-v0')
 
 env.reset()
 
