@@ -1,9 +1,10 @@
 import gym
 
-class ManeuverDogfightEnv(gym.Env):
+class DogfightEnv(gym.Env):
   
 
   def __init__(self):
+    print("MANEUVER")
     print("init method of environment")
   
   def step(self, action):
