@@ -2,7 +2,7 @@ from gym.envs.registration import register
 
 register(
     id='dogfight_maneuver-v0',
-    entry_point='gym_hvl.envs.HHO.vs1_1.maneuver:DogfightEnv',
+    entry_point='gym_hvl.envs.HHO.vs1_1.maneuver:ManeuverDogfightEnv',
 )
 
 register(
