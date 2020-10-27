@@ -6,6 +6,7 @@ class DiscreteDogfightEnv(gym.Env):
   def __init__(self):
     print("DISCRETE")
     print("init method of environment")
+    print("output degisimi")
   
   def step(self, action):
     print("DISCRETE")
