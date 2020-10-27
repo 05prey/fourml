@@ -12,3 +12,4 @@ for e in range(episodes):
     env.step(action)
 
 
+#hho_vs1_!, kafa karıstırıcı olmalılı
