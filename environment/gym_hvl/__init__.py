@@ -1,12 +1,12 @@
 from gym.envs.registration import register
 
 register(
-    id='dogfight_maneuver-v0',
-    entry_point='gym_hvl.envs.HHO.vs1_1.maneuver:DogfightEnv',
+    id='hho_1v1_maneuver-v0',
+    entry_point='gym_hvl.envs.HHO.vs1_1.maneuver:SimEnv',
 )
 
 register(
-    id='dogfight_discrete-v0',
-    entry_point='gym_hvl.envs.HHO.vs1_1.discrete:DogfightEnv',
+    id='hho_1v1_discrete-v0',
+    entry_point='gym_hvl.envs.HHO.vs1_1.discrete:SimEnv',
 )
 
